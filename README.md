@@ -1,2 +1,2 @@
-# TPA-Exercícios
+# TPA-Exercicios
 Exercícios da matéria de TPA
