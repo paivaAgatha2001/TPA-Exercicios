@@ -5,16 +5,16 @@ public class BaseExpoente {
 		
 		int base, ex, i= 0, pot=1;
 		
-		System.out.println("escreva a base do n�mero: ");
+		System.out.println("escreva a base do número: ");
 		base = in.nextInt();
-		System.out.println("escreva o expoente do n�mero: ");
+		System.out.println("escreva o expoente do número: ");
 		ex = in.nextInt();
 		
 		do {
 			pot = pot*base;
 			i++;
 		}while(i < ex);
-		System.out.println("a potencia do n�mero �: "+pot);
+		System.out.println("a potência do número é: "+pot);
 		in.close();
 	}
 	
